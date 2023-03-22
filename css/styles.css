@@ -1,0 +1,199 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    /* height: 40rem; */
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2{
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+h3{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+p{
+    color: #afafaf;
+}
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    /* font-weight: 55%; */
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+
+/* Download Button */
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* Title img */
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    /* padding-left: 5%; */
+    position: absolute;
+    /* z-index: -1;    this is not work becasue when you use this, the title-image will be under the behind everythingelese, so you not able to see the photo */
+    right: 25%;
+}
+
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;    without this is still work */
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{    /* :hover is the selector is used to select elements when you mouse over them which means gives the action when user put the mouse on the icon */
+    color:#ff4c68
+}
+
+/* Testimontial Sectio */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 0 7% ;
+    height: 50%;
+}
+
+.harousel-txt{
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 9.5%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+}
+
+.press-logo{
+    width: 15%;
+    margin:  20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px 8%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.price-btn{
+    width: 90%;
+}
+/* CTA Section */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Using media for mobile size */
+
+@media (max-width: 1170px) {
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 90%;
+    }
+}
+
+@media (max-width: 990px) {
+    .title-image{
+        width: 60%;
+    }
+}
